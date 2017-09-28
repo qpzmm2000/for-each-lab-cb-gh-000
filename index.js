@@ -12,3 +12,9 @@ function iterate(callback)
   array.forEach(ele => callback(ele))
   return array
 }
+
+
+function doToArray(array, callback)
+{
+  array.forEach(ele => callback(ele))
+}
